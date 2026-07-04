@@ -69,7 +69,6 @@ header{
 }
 .right{
     padding: 0 3em 0;
-    background-color: orange;
     flex-direction: column;
     max-width: 700px;
 }
