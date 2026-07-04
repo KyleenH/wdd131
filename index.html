@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Kyleen Hunter</title>
     <link rel="stylesheet" href="styles/base.css">
+    <script src="getdates.js" defer></script>
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Kyleen Hunter - Home Page">
     <meta name="author" content="Kyleen Hunter">
 </head>
@@ -26,6 +27,9 @@
         <div class="card">
             <section>
                 <h3>About Me</h3>
+                <div class="personal">
+                    <img src="images/personal.jpeg" alt="A personal photo of the author">
+                </div>
                 <p>My name is Kyleen Hunter. I was born and currently still live in the United States of America.</p>
                 <p>I currently work as a Registered Behavioral Technician. I have two cats and am living in Orlando, Florida.</p>
                 <p>I am in BYU Pathways to earn my Bachelors in Software Development. I hope to travel to Europe when I am older.</p>
@@ -33,6 +37,9 @@
             </section>
             <section>
                 <h3>Florida, United States of America</h3>
+                <div class="flag">
+                    <img src="images/flag.svg">
+                </div>
                 <p>The United States of America is the third largest country in the world. The United States is one of the ony countries</p>
                 <p>in the world that possesses all five major climate zones. I grew up on the Pacific side of the U.S and now I live on the</p>
                 <p>Eastern side of the U.S. I went from the rainy state of Washington to the sunny state of Florida.</p> 
@@ -54,8 +61,8 @@
     <footer>
         <span id="currentyear"></span>
             <p><p>&copy;2026 ✨ Kyleen Hunter ✨ Florida</p>
-        <span id="lastModified"></span>
-            <p></p>
+    <p>Last Modification:<span id="lastModified" ></span></p>
+    <p><script>document.getElementById("lastModified").innerHTML = document.lastModified</script></p>
     </footer>
 </body>
 </html>
