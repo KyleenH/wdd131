@@ -71,6 +71,7 @@ header{
     border: black solid;
     float: right;
     width: 49%;
+    height: auto;
 }
 body footer{
     background-color: rgb(96, 154, 96);
@@ -88,13 +89,41 @@ body footer{
 }
 .personal{
     margin: 1rem;
-    border: 1px black solid;
     padding: 1rem;
     position:relative;
 }
-.flag{
-    margin: 1rem;
-    border: 1px black solid;
-    padding: 1rem;
+.personal img{
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    float: right;
+}
+.flag img{
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    float: left;
+}
+.card h2{
+    text-align: center;
+    background-color: rgb(96, 154, 96);
+}
+.right h2{
+    text-align: center;
+    background-color: rgb(96, 154, 96);
+}
+.card h3{
+    text-align: center;
+    text-decoration: underline;
+}
+figure{
+    text-align: center;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+figcaption{
+    font-size: 0.85rem;
     color: black;
+    margin-top: 8px;
 }
