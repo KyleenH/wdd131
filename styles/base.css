@@ -4,15 +4,13 @@ nav{
     max-width: 800pc;
 }
 nav a{
-    text-align: center;
-    color: black;
+    justify-content: space-around;
+    color: black;    
+    display: block;
+
 }
 nav a:hover {
     text-decoration: underline;
-}
-nav ul{
-    display: flex;
-    justify-content: space-around;
 }
 /*main{
     max-width: fit-content;
