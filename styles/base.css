@@ -3,7 +3,6 @@ nav{
     justify-content: space-around;
     display: flex;
     background-color: steelblue;
-    padding: 1em 0 1em 0;
     
 }
 nav a{
@@ -56,7 +55,6 @@ body{
     font-family: var(--Oswald);
 }
 header{
-    padding: 1em 0 1em 0;
     background-color: rgb(96, 154, 96);
 }
 .card{
@@ -78,26 +76,25 @@ body footer{
     background-color: rgb(96, 154, 96);
     padding: 0 1em 0;
 }
-/*.main{
+.main{
     display: grid;
     box-sizing: border-box;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr 5fr 1fr;
     /*flex: 1;
-    display: flex;*/
-    /*font-family: var(--Oswald);/*
+    display: flex;
+    font-family: var(--Oswald);*/
 
 }
-/*.personal{
+.personal{
     margin: 1rem;
     border: 1px black solid;
     padding: 1rem;
-    
     position:relative;
-}*/
-/*.flag{
+}
+.flag{
     margin: 1rem;
     border: 1px black solid;
     padding: 1rem;
     color: black;
-}*/
+}
