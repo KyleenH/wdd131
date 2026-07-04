@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Oswald&display=swap');
+header{
+    display: grid;
+    grid-template-columns: 300px 1028px;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex: 1 1 auto;
+    justify-content: space-evenly;
+}
+.nav a{
+    color:black;
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+footer{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 2rem;
+    font-size: large;
+    width: 1250px;
+    background-color:gray;
+}
+aside{
+    justify-self: right;
+
+}
+.grid{
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    color: black;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Oswald&display=swap');
+nav{
+    margin: 0 auto;
+    max-width: 800pc;
+}
+nav a{
+    display: overline;
+    text-align: center;
+    color: black;
+}
+nav a:hover {
+    text-decoration: block;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+/*main{
+    max-width: fit-content;
+    justify-content: space-around;
+    display: grid;
+}
+.main{
+    flex-direction: column;
+}
+.card{
+    display: grid;
+}
+.card header {
+    padding: 2rem;
+    grid-column: 1/4;
+}
+.card section{
+    padding: 2rem;
+    grid-column: 1/4;
+}
+.header{
+   margin: 0 auto;
+   max-width: 800pc;
+}
+.span header{
+    display: block;
+}*/
+*{
+    margin: 5px;
+    box-sizing: border-box;
+
+}
+:root{
+    --primary-color:var(96, 154, 96);
+    font-family: var(--Oswald);
+}
+body{
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--Oswald);
+}
+header{
+    padding: 1em 0 1em 0;
+    background-color: rgb(96, 154, 96);
+}
+.card{
+    padding: 0 3em 0;
+    max-width: 700px;
+    text-align: justify;
+    border: 1em black;
+}
+.right{
+    padding: 0 3em 0;
+    background-color: orange;
+    flex-direction: column;
+    max-width: 700px;
+}
+body footer{
+    background-color: rgb(96, 154, 96);
+    padding: 0 1em 0;
+}
+.main{
+    display: flex;
+    flex: 1;
+    font-family: var(--Oswald);
+}
+.card section h2{
+    background-color: steelblue;
+}
