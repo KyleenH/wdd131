@@ -1,3 +1,4 @@
+@import url('https://googleapis.com');
 nav{
     justify-content: space-around;
     display: flex;
@@ -51,6 +52,7 @@ body{
     font-size: 24px;
     display: flex;
     flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
 }
 header{
     background-color: rgb(96, 154, 96);
@@ -81,9 +83,7 @@ footer{
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr 5fr 1fr;
     /*flex: 1;
-    display: flex;
-    font-family: var(--Oswald);*/
-
+    display: flex;*/
 }
 .personal{
     margin: 1rem;
