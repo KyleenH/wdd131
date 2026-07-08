@@ -71,10 +71,9 @@ header{
     width: 49%;
     height: auto;
 }
-.right
-body footer{
+
+footer{
     background-color: rgb(96, 154, 96);
-    padding: 0 1em 0;
 }
 .main{
     display: grid;
