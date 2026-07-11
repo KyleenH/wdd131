@@ -8,8 +8,6 @@ nav{
 nav a{
     color: black;    
     display: block;
-    
-
 }
 nav a:hover {
     background-color: antiquewhite;
@@ -52,7 +50,9 @@ body{
     font-size: 24px;
     display: flex;
     flex-direction: column;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 header{
     background-color: rgb(96, 154, 96);
