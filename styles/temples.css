@@ -30,13 +30,13 @@ header{
         text-decoration: none;
         padding: 0.5rem 0.75rem;
     }   
-    .figcaption{
+    .images .figcaption{
         text-align: center;
     }
-    .temple img{
+    .images img{
         display: grid;
-        max-width: 50%;
-        height: 505;
+        max-width: 100%;
+        height: auto;
     }
     #menu::before{
         content: "-";

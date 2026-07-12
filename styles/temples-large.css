@@ -10,11 +10,11 @@
         justify-content: space-around;
     }
 
-    .temples{
+    .images{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    .temples img{
+    .images img{
         width: 70%;
         height: 70%;
     }
