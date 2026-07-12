@@ -6,9 +6,13 @@
     display: block;
     justify-content: space-around;
 }
-.navigation a:hover{
-    background-color: antiquewhite;
+
+.temples{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 .temples img{
-    grid-template-rows: repeat(3, 1fr);
+    width: auto;
+    height: auto;
+    object-fit: cover;
 }
