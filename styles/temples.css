@@ -12,60 +12,57 @@ body{
 }
 footer{
     background-color: rgb(96, 154, 96);
-    justify-content: space-around;
+    text-align: center;
 }
 header{
     text-align: left;
     background-color: rgb(96, 154, 96);
 }
-.navigation a:hover,
-.navigation a:active{
+.navigation a:hover{
     background-color: antiquewhite;
 }
-#menu{
-    display:block;
-    font-size: 2rem;
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 0.75rem;
-}
-#menu::before{
-    content: "-";
-}
-#menu.show::before {
-    content: "X";
-}
-nav{
-    background-color: rgb(96, 154, 96);
-}
-.navigation{
-    list-style: none;
-    margin:0 auto;
-    max-width: 760px;
-}
-.navigation li{
-    display: none;
-}
-.navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: right;
-    text-decoration: none;
-    background-color: rgb(96, 154, 96);
-    color: black;
-    font-weight: 700;
-    transition: 0.5s;
-}
-.show li{
-    display: block;
-}
-figure{
-    display: block;
-    padding: 2rem;
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-}
-figcaption{
-    text-align: center;
+@media(min-width: 768px){
+    #menu{
+        display:flex;
+        font-size: 2rem;
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 0.75rem;
+    }   
+    #menu::before{
+        content: "-";
+    }
+    #menu.show::before{
+        content: "X";
+    }
+    nav{
+        background-color: rgb(96, 154, 96);
+    }
+    .navigation{
+        list-style: none;
+        margin:0 auto;
+        max-width: 760px;
+    }
+    .navigation li{
+        display: none;
+    }
+    .navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        background-color: steelblue;
+        color: black;
+        font-weight: 700;
+    }
+    .show li{
+        display: block;
+    }
+    .temple img{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .figcaption{
+        text-align: center;
+    }
 }
