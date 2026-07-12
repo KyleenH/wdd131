@@ -1,18 +1,24 @@
-.navigation{
-    display: block;
-}
-.navigation a {
-    text-align: center;
-    display: block;
-    justify-content: space-around;
-}
+@media screen and (min-width: 768px){
+    .navigation{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    .navigation a {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
 
-.temples{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-.temples img{
-    width: auto;
-    height: auto;
-    object-fit: cover;
+    .temples{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .temples img{
+        width: 70%;
+        height: 70%;
+    }
+    .figcaption{
+        text-align: center;
+    }
 }

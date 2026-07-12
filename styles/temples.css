@@ -21,14 +21,23 @@ header{
 .navigation a:hover{
     background-color: antiquewhite;
 }
-@media(max-width: 768px){
+
+@media screen and (max-width: 768px){
     #menu{
-        display:flex;
+        display:block;
         font-size: 2rem;
         color: white;
         text-decoration: none;
         padding: 0.5rem 0.75rem;
     }   
+    .figcaption{
+        text-align: center;
+    }
+    .temple img{
+        display: grid;
+        max-width: 50%;
+        height: 505;
+    }
     #menu::before{
         content: "-";
     }
@@ -58,12 +67,4 @@ header{
     .show li{
         display: block;
     }
-    .temple img{
-       width: 100%;
-       height: 100%;
-       object-fit: cover;
-    }
-    .figcaption{
-        text-align: center;
-    }
-}
+}    
