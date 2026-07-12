@@ -10,11 +10,11 @@
         justify-content: space-around;
     }
 
-    .images{
+    .image{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    .images img{
+    .image img{
         width: 70%;
         height: 70%;
     }
