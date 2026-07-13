@@ -9,7 +9,6 @@
         display: flex;
         justify-content: space-around;
     }
-
     .image{
         display: grid;
         grid-template-columns: repeat(3, 1fr);

@@ -33,7 +33,7 @@ header{
     .image .figcaption{
         text-align: center;
     }
-    .image img{
+    .image{
         display: grid;
         width: 100%;
         max-width: 800px;
@@ -49,16 +49,15 @@ header{
         background-color: rgb(96, 154, 96);
     }
     .navigation{
-        list-style: none;
         margin:0 auto;
-        max-width: 760px;
-        display: flex;
+        max-width: auto;
+        display: block;
     }
     .navigation li{
         display: none;
     }
     .navigation a {
-        display: inline-flex;
+        display: block;
         padding: 0.75rem;
         text-align: left;
         text-decoration: none;
