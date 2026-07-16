@@ -40,10 +40,10 @@ header{
         height: auto;
     }
     #menu::before{
-        content: "-";
+        content: "🟰";
     }
     #menu.show::before{
-        content: "X";
+        content: "✖️";
     }
     nav{
         background-color: rgb(96, 154, 96);
@@ -55,6 +55,7 @@ header{
     }
     .navigation li{
         display: none;
+        color: black;
     }
     .navigation a {
         display: block;
@@ -67,5 +68,6 @@ header{
     }
     .show li{
         display: block;
+        color: black;
     }
 }    
