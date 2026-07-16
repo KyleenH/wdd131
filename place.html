@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <title>WDD 131 Portland Oregon place page</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals BYU Pathways - Kyleen Hunter">
+    <meta name="author" content="Kyleen Hunter">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Oregon</h1>
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+            <img src="images/hero-small.webp" alt="Street in Portland Oregon" width="400" height="200">
+        </picture>
+        <article>
+            <h3>Data</h3>
+        </article>
+        <aside>
+            <h3>Weather</h3>
+            <p>🌥️</p>
+        </aside>
+    </main>
+    <footer>
+        <p><span id="year"></span>&copy;2026 ✨ Kyleen Hunter ✨ Florida</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
+</body>
+</html>

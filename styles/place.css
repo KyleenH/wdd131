@@ -1,0 +1,18 @@
+header, footer{
+    text-align: center;
+    background-color: rgb(96, 154, 96);
+    padding: 1rem;
+}
+footer{
+    font-size: large;
+}
+section h3{
+    background-color: rgb(96, 154, 96);
+}
+body{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 24px;
+}
