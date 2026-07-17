@@ -1,3 +1,7 @@
+:root{
+    background-color: rgb(4, 63, 4);
+    font-family: "Oswald"
+}
 header, footer{
     text-align: center;
     background-color: rgb(96, 154, 96);
@@ -15,33 +19,39 @@ body{
     font-weight: 200;
     font-style: normal;
     font-size: 24px;
+    justify-content: center;
+    align-items: center;
 }
-.info{
-    width: 300px;
-    background-color: blueviolet;
-    border: 5px solid black;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-.info h3{
-    background-color: aquamarine;
-}
-.weather{
-    width: 300px;
-    background-color: blueviolet;
-    border: 5px solid black;
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-.weather2nd{
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-}
+@media screen and (max-width: 768px){
+    .info{
+        width: 300px;
+        background-color: aliceblue;
+        border: 5px solid black;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 4px;
+        box-sizing: border-box;
+        place-items: center;
+        text-align: center;
+    }
+    .info h3{
+        background-color: #f0f8ff8d;
+    }
+    .weather{
+        width: 300px;
+        background-color: aliceblue;
+        border: 5px solid black;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: center;
+    }   
+    .weather img{
+        align-content: center;
+    }
+    }
+
 .hero img{
     width: 100%;
     height: auto;
