@@ -16,3 +16,33 @@ body{
     font-style: normal;
     font-size: 24px;
 }
+.info{
+    width: 300px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.info h3{
+    background-color: aquamarine;
+}
+.weather{
+    width: 300px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.weather2nd{
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+}
