@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 24px;
+}
+footer{
+    background-color: rgb(96, 154, 96);
+    text-align: center;
+}
+header{
+    text-align: left;
+    background-color: rgb(96, 154, 96);
+}
+.navigation a:hover{
+    background-color: antiquewhite;
+}
+
+@media screen and (max-width: 768px){
+    #menu{
+        display:block;
+        font-size: 2rem;
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 0.75rem;
+    }   
+    .image .figcaption{
+        text-align: center;
+    }
+    .image{
+        display: grid;
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+    }
+    #menu::before{
+        content: "🟰";
+    }
+    #menu.show::before{
+        content: "✖️";
+    }
+    nav{
+        background-color: rgb(96, 154, 96);
+    }
+    .navigation{
+        margin:0 auto;
+        max-width: auto;
+        display: block;
+    }
+    .navigation li{
+        display: none;
+        color: black;
+    }
+    .navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        background-color: steelblue;
+        color: black;
+        font-weight: 700;
+    }
+    .show li{
+        display: block;
+        color: black;
+    }
+}    

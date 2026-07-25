@@ -1,0 +1,24 @@
+@media screen and (min-width: 768px){
+    .navigation{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    .navigation a {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        color: black;
+    }
+    .image{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .image img{
+        width: 70%;
+        height: 70%;
+    }
+    .figcaption{
+        text-align: center;
+    }
+}
