@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px){
+@media screen and (min-width: 760px){
     .navigation{
         display: flex;
         list-style: none;
@@ -10,11 +10,11 @@
         justify-content: space-around;
         color: black;
     }
-    .image{
+    .res-grid{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    .image img{
+    .res-grid img{
         width: 70%;
         height: 70%;
     }
