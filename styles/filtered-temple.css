@@ -52,10 +52,10 @@ header{
     }
     .navigation{
         margin:0 auto;
-        display: block;
+        display: flex;
     }
     .navigation li{
-        display: none;
+        display: flex;
         color: black;
     }
     .navigation a {
