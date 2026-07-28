@@ -89,10 +89,11 @@ const temples = [
     "https://churchofjesuschristtemples.org/assets/img/temples/rio-de-janeiro-brazil-temple/rio-de-janeiro-brazil-temple-8167-main.jpg"
    },
   ];
-createTempleCard();
+createTempleCard(temples);
+
 const oldtempleLink = document.querySelector('#oldtemple');
 oldtempleLink.addEventListener('click', () => {
-  createTempleCard(temples.filter(temple => temple.dedicated <= 1900));
+  createTempleCard(temples.filter(temple => temple.dedicated.includes (1900)));
 })
 function createTempleCard() {
   document.querySelector(".res-grid").innerHTML = "";
@@ -104,10 +105,10 @@ function createTempleCard() {
         let area = document.createElement('p');
         let img = document.createElement('img');
     
-        name.textContent = temple.templeNames;
-        location.innerHTML = '<span class= "label">Location</span> ${temple.location}';
-        dedication.innerHTML = '<span class= "label">Dedicated</span>${temple.dedicated}';
-        area.innerHTML = '<span class = "label">Size:</span> ${temple.area} sq ft';
+        name.textContent = temple.templeName;
+        location.innerHTML = `<span class= "label">Location: </span>${temple.location}`;
+        dedication.innerHTML = `<span class= "label">Dedicated: </span>${temple.dedicated}`;
+        area.innerHTML = `<span class = "label">Size: </span> ${temple.area} sq ft`;
         img.setAttribute('src', temple.imageUrl);
         img.setAttribute('alt', '${temple.templeName} Temple');
         img.setAttribute('loading', "lazy");

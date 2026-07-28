@@ -13,6 +13,10 @@
     .res-grid{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 60px;
+        padding: 60px;
+        background-color: rgb(175, 196, 180);
+        box-shadow: o 4px 8px rgna(0,0,0,0.1);
     }
     .res-grid img{
         width: 70%;
@@ -20,5 +24,12 @@
     }
     .figcaption{
         text-align: center;
+    }
+    .card{
+        border: black solid;
+        padding: 2rem;
+        border: 2rem;
+        text-align: center;
+        background-color: brown;
     }
 }
