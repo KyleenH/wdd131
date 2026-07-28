@@ -90,7 +90,12 @@ const temples = [
    },
   ];
 createTempleCard();
+const oldtempleLink = document.querySelector('#oldtemple');
+oldtempleLink.addEventListener('click', () => {
+  createTempleCard(temples.filter(temple => temple.dedicated <= 1900));
+})
 function createTempleCard() {
+  document.querySelector(".res-grid").innerHTML = "";
     temples.forEach(temple => {
         let card = document.createElement("section");
         let name = document.createElement('h3');

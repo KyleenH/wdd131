@@ -29,7 +29,11 @@ header{
         color: white;
         text-decoration: none;
         padding: 0.5rem 0.75rem;
-    }   
+    }  
+    .res-grid img{
+        width: 100%;
+        height: auto;
+    }
     .res-grid{
         display: grid;
         width: 100%;
