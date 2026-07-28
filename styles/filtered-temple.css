@@ -39,6 +39,7 @@ header{
         width: 100%;
         max-width: 800px;
         height: auto;
+        background-color: rgb(175, 196, 180);
     }
     #menu::before{
         content: "🟰";
@@ -51,7 +52,6 @@ header{
     }
     .navigation{
         margin:0 auto;
-        max-width: auto;
         display: block;
     }
     .navigation li{
@@ -71,4 +71,5 @@ header{
         display: block;
         color: black;
     }
+
 }    
