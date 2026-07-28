@@ -4,7 +4,7 @@
         list-style: none;
         justify-content: space-around;
     }
-    .navigation a {
+    .navigation li {
         text-align: center;
         display: flex;
         justify-content: space-around;
@@ -16,7 +16,6 @@
         gap: 60px;
         padding: 60px;
         background-color: rgb(175, 196, 180);
-        box-shadow: 0 4px 8px rgna(0,0,0,0.1);
     }
     .res-grid img{
         width: 70%;
