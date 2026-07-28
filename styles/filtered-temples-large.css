@@ -6,7 +6,7 @@
     }
     .navigation li {
         text-align: center;
-        display: flex;
+        display: block;
         justify-content: space-around;
         color: black;
     }

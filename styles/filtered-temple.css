@@ -52,14 +52,14 @@ header{
     }
     .navigation{
         margin:0 auto;
-        display: flex;
+        display: block;
     }
     .navigation li{
-        display: flex;
+        display: none;
         color: black;
     }
     .navigation a {
-        display: flex;
+        display: block;
         padding: 0.75rem;
         text-align: left;
         text-decoration: none;
