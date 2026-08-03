@@ -1,0 +1,24 @@
+header, footer{
+    text-align: center;
+    background-color: rgb(96, 154, 96);
+    padding: 1rem;
+}
+footer{
+    font-size: large;
+}
+body{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 760px){
+
+}
+@media screen and (min-width: 760px){
+
+}
