@@ -13,7 +13,7 @@ header, footer{
 form{
     justify-content: left;
     flex-direction: column;
-    background-color: antiquewhite;
+    background-color: rgb(192, 215, 226);
 }
 input[type="radio"] {
 	display: none;
@@ -28,7 +28,7 @@ input[type="radio"] {
 }
 
 .stars > label {
-	color: gold;
+	color: rgb(6, 5, 0);
 	width: 30px;
 	height: 30px;
 	font-size: 2rem;
