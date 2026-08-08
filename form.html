@@ -20,7 +20,7 @@
         </header>
             <form method="get" action="review.html">
                 <fieldset>
-                    <legend>Product Name*</legend>
+                    <label for="products">Product Name*</label>
                     <select id="products" name="products" required>
                         <option value="placeholder" disabled selected>Select a Product...</option>
                         <option value="flux">Flux Capacitor</option>
@@ -29,7 +29,6 @@
                         <opiton value="reactor">Low Voltage Reactor</opiton>
                         <option value="warp">Warp Equalizer</option>
                     </select>
-                    </label>
                 </fieldset>
                 <fieldset>
                     <legend>Overall Rating*</legend>
@@ -46,21 +45,20 @@
                     <label><input type="date" id="date" name="date" required></label>
                 </fieldset>
                 <fieldset>
-                    <legend>Which features did you find useful in the product?
-                    (Check all that apply)</legend>
+                    <label for="box">Which features did you find useful in the product?
+                    (Check all that apply)</label>
                     <input type="checkbox" value="yes" id="duribility" name="duribility">Durability>
                     <input type="checkbox" value="yes" id="ease" name="ease">Ease of Use>
                     <input type="checkbox" value="yes" id="performance" name="performance">Performance>
                     <input type="checkbox" value="yes" id="design" name="design">Design>
                 </fieldset>
-           
                 <fieldset>
-                    <legend> Written Review(Optional)</legend>
-                    <label><textarea id="review" name="written-review"></textarea></label>
+                    <label for="review"> Written Review(Optional)</label>
+                    <textarea id="review" name="written-review"></textarea>
                 </fieldset>
                 <fieldset>
-                    <legend>Your Name(Optional)</legend>
-                    <label><input type="type" name="name"></label>
+                    <label for="name">Your Name(Optional)</label>
+                    <input type="text" name="name">
                 </fieldset>
                 <fieldset>
                     <label><input type="submit" value="submit"></label>
