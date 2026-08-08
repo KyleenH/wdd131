@@ -20,18 +20,19 @@
         </header>
             <form method="get" action="review.html">
                 <fieldset>
-                    <legend>Product Name</legend>
+                    <label><legend>Product Name*</legend>
                     <select id="products" name="products" required>
-                        <option value="placeholder"disabled selected>Select a Product...</option>
+                        <option value="placeholder" disabled selected>Select a Product...</option>
                         <option value="flux">Flux Capacitor</option>
                         <option value="power">Power Laces</option>
                         <option value="time circuits">Time Circuits</option>
                         <opiton value="reactor">Low Voltage Reactor</opiton>
                         <option value="warp">Warp Equalizer</option>
                     </select>
+                    </label>
                 </fieldset>
                 <fieldset>
-                    <legend>Overall Rating</legend>
+                    <legend>Overall Rating*</legend>
                     <div class="stars">
                         <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
                         <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
@@ -41,24 +42,26 @@
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend>Date of Installation</legend>
+                    <legend>Date of Installation*</legend>
                     <label><input type="date" id="date" name="date" required></label>
                 </fieldset>
                 <fieldset>
-                    <legend>Which features did you find useful in the product?
+                    <label><legend>Which features did you find useful in the product?
                     (Check all that apply)</legend>
-                    <label><input type="checkbox" value="yes" id="duribility" name="duribility">Durability</label>
-                    <label><input type="checkbox" value="yes" id="ease" name="ease">Ease of Use</label>
-                    <label><input type="checkbox" value="yes" id="performance" name="performance">Performance</label>
-                    <label><input type="checkbox" value="yes" id="design" name="design">Design</label>
+                    <input type="checkbox" value="yes" id="duribility" name="duribility">Durability</input>
+                    <input type="checkbox" value="yes" id="ease" name="ease">Ease of Use</input>
+                    <input type="checkbox" value="yes" id="performance" name="performance">Performance</input>
+                    <input type="checkbox" value="yes" id="design" name="design">Design</input>
+                    </label>
                 </fieldset>
+           
                 <fieldset>
                     <legend> Written Review(Optional)</legend>
                     <label><textarea id="review" name="written-review"></textarea></label>
                 </fieldset>
                 <fieldset>
                     <legend>Your Name(Optional)</legend>
-                    <label><input type="type" name="name"></label>
+                    <label><input type name="name"></label>
                 </fieldset>
                 <fieldset>
                     <label><input type="submit" value="submit"></label>

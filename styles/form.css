@@ -13,6 +13,7 @@ header, footer{
 form{
     justify-content: left;
     flex-direction: column;
+    background-color: antiquewhite;
 }
 input[type="radio"] {
 	display: none;
