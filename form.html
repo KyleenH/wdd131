@@ -20,14 +20,14 @@
         </header>
             <form method="get" action="review.html">
                 <fieldset>
-                    <label for="products">Product Name*</label>
+                    <legend>Product Name*</legend>
                     <select id="products" name="products" required>
-                        <option value="placeholder" disabled selected>Select a Product...</option>
-                        <option value="flux">Flux Capacitor</option>
-                        <option value="power">Power Laces</option>
-                        <option value="time circuits">Time Circuits</option>
-                        <opiton value="reactor">Low Voltage Reactor</opiton>
-                        <option value="warp">Warp Equalizer</option>
+                        <label><option value="placeholder" disabled selected>Select a Product...</option></label>
+                        <label><option value="flux">Flux Capacitor</option></label>
+                        <label><option value="power">Power Laces</option></label>
+                        <label><option value="time circuits">Time Circuits</option></label>
+                        <label><opiton value="reactor">Low Voltage Reactor</opiton></label>
+                        <label><option value="warp">Warp Equalizer</option></label>
                     </select>
                 </fieldset>
                 <fieldset>
@@ -45,7 +45,7 @@
                     <label><input type="date" id="date" name="date" required></label>
                 </fieldset>
                 <fieldset>
-                    <label for="task"> Which features did you find useful in the product?
+                    <label for="checkbox"> Which features did you find useful in the product?
                     (Check all that apply)</label>
                     <input type="checkbox" value="yes" id="duribility" name="duribility">Durability
                     <input type="checkbox" value="yes" id="ease" name="ease">Ease of Use
