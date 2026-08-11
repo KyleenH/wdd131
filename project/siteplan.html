@@ -6,7 +6,9 @@
     <title>Project Review</title>
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals BYU Pathways- Kyleen Hunter - Project Description">
     <meta name="author" content="Kyleen Hunter">
-    <link rel="stylesheet" href="siteplan.css">
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="siteplan.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -15,7 +17,11 @@
     <header>
         <h1>Can't Judge the Book by it's Cover</h1>
         <h2>This name helps describe the purpose of hiding book covers to help avoid stereotyping.</h2>
+        <nav>
+            <a href="" class="active"></a>
+        </nav>
     </header>
+
         <h2>Purpose:</h2>
         <p>A website to help readers broaden their range of books without the influence of it's cover. It will show local bookstores that are hosting book clubs for the book selected.</p>
         <p>Everyone has heard the saying "Don't judge a book by it's cover". It's good advice, the purpose of a books cover is to help convay the direction of a book at a glance. I have a horrible habit of not wanting to read certain books based off of their covers.</p>
@@ -23,7 +29,9 @@
         <p>What kind of genres does this book entail?</p>
         <p>What other books has this author written?</p>
     <footer>
-        <p><span id="year"></span>&copy;2026 ✨ Kyleen Hunter ✨ Florida</p>
+        <p><span id="currentyear"></span>&copy;2026 ✨ Kyleen Hunter ✨ Florida </p>
+        <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
+    <script src="scripts/getdates.js" defer></script>
 </body>
 </html>
