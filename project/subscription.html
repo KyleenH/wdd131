@@ -1,0 +1,61 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription form</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals BYU Pathways- Kyleen Hunter - Subscription Form">
+    <meta name="author" content="Kyleen Hunter">
+    <link rel="stylesheet" href="styles/subscription.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="siteplan.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Can't Judge the Book by it's Cover</h1>
+        <nav>
+            <a href="siteplan.html">Home</a>
+            <a href="summary.html" class="active">Book Summaries</a>
+            <a href="subscription.html">Newsletter</a>
+        </nav>
+    </header>
+    <main>
+    <h1>Subscribe to our Newsletter to get Updates on Bookclub Locations!</h1>
+    <form>
+        <feildset>
+            <legend>Your Name</legend>
+            <label><input type="text" name="user-name"></label>
+        </feildset>
+        <fieldset>
+            <legend>Phone Number</legend>
+            <label><input type="text" name="user-phone-number"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Email</legend>
+            <label><input type="text" name="user-email"></label>
+        </fieldset>
+        <fieldset>
+            <lengend>What are you favorite tropes to read?</lengend>
+            <label><input type="checkbox" value="yes">Romance</label>
+            <label><input type="checkbox" value="yes">Fantasy</label>
+            <label><input type="checkbox" value="yes">Horror</label>
+            <label><input type="checkbox" value="yes">Mystery</label>
+            <label><input type="checkbox" value="yes">Young Adult</label>
+            <label><input type="checkbox" value="yes">Sci-Fi</label>
+            <label><input type="checkbox" value="yes">Poetry</label>
+            <label><input type="checkbox" value="yes">Non-Fiction</label>
+            <label><input type="checkbox" value="yes">Sports Romance</label>
+        </fieldset>
+        <fieldset>
+            <label><input type="submit" value="submit"></label>
+        </fieldset>
+    </form>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span>&copy;2026 ✨ Kyleen Hunter ✨ Florida </p>
+        <a href="referances.html">Referances</a>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js" defer></script>
+</body>

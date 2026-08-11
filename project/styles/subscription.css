@@ -31,18 +31,6 @@ nav{
         background-color: antiquewhite;
         color: black;
     } 
-    .hero{
+    .button{
         width: 100%;
-        height: auto;
     }
-    .info{
-        text-align: center;
-        background-color: rgb(67, 121, 128);
-    }
-@media screen and (max-width: 760px){
-   
-}
-@media screen and (min-width: 760px){
-    
-    
-}
