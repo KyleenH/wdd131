@@ -18,16 +18,19 @@ body{
     align-items: center;
 }
 nav{
-        justify-content: space-around;
-        display: flex;
-        background-color: rgb(67, 121, 128);
-        
-    }
-    nav a{
-        color: black;    
-        display: block;
-    }
-    nav a:hover {
-        background-color: antiquewhite;
-        color: black;
-    } 
+    justify-content: space-around;
+    display: flex;
+    background-color: rgb(67, 121, 128);  
+}
+nav a{
+    color: black;    
+    display: block;
+}
+nav a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+#summary{
+    cursor: pointer;
+    font-weight: bold;
+} 
