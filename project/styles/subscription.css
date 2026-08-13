@@ -1,4 +1,3 @@
-@import url('https://googleapis');
 header, footer{
     text-align: center;
     background-color: rgb(96, 154, 96);
@@ -18,19 +17,19 @@ body{
     align-items: center;
 }
 nav{
-        justify-content: space-around;
-        display: flex;
-        background-color: rgb(67, 121, 128);
+    justify-content: space-around;
+    display: flex;
+    background-color: rgb(67, 121, 128);
         
-    }
-    nav a{
-        color: black;    
-        display: block;
-    }
-    nav a:hover {
-        background-color: antiquewhite;
-        color: black;
-    } 
-    .button{
-        width: 100%;
-    }
+}
+nav a{
+    color: black;    
+    display: block;
+}
+nav a:hover {
+    background-color: antiquewhite;
+    color: black;
+} 
+.button{
+    width: 100%;
+}
