@@ -35,8 +35,6 @@ function setBookList() {
 function getBookList() {
 	return JSON.parse(localStorage.getItem('myTBRList'));
 }
-book = book.slice(0, book.length - 1);
-booksArray = booksArray.filter((item) => item !== book);
 function deleteBook(book){
 	book = book.slice(0, book.length - 1);
 	booksArray = booksArray.filter(item => item !== book);
