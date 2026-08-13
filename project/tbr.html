@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
-    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals BYU Pathways- Kyleen Hunter - Project Home page">
+    <title>Project TBR</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals BYU Pathways- Kyleen Hunter - Project TRB List">
     <meta name="author" content="Kyleen Hunter">
-    <link rel="stylesheet" href="styles/siteplan.css">
+    <link rel="stylesheet" href="styles/tbr.css">
     <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/tbr.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -23,17 +24,12 @@
         </nav>
     </header>
     <main>
-      <div class="hero">
-        <picture>
-            <img src="images/spines.avif" alt="a collection of book spines" loading="lazy" width="300" height="500">
-        </picture>
-      </div> 
-      <div class="info">
-        <h2>What is this website about?</h2> 
-        <p>Everyone knows the saying, "Don't judge a book by it's cover". I myself am very guilty of doing just that. If I don't find a cover aesthetically pleasing I will not look at the summary. Who knows how many great books I have passed up on because the cover didn't interest me. That's why I came up with a website that will provide different books with their summaries while concealing the cover of the book. My hope is to help broaden readers reading regimends.</p>
-        <p>Under each summary shows locations for discussions on the chosen book as well as other works listed for that author!!</p>
-      </div>
-     
+        <h2>TBR List</h2>
+        <h3>Keep track of your To Be Read list, add books and delete as you read through!</h3>
+        <label for="tbr">Enter Your Books:</label>
+        <input type="text" id="tbr" placeholder="Enter...">
+        <button type="submit">Add Book</button>
+        <ul id="list"></ul>
     </main>
     <footer>
         <p><span id="currentyear"></span>&copy;2026 ✨ Kyleen Hunter ✨ Florida </p>
@@ -41,5 +37,6 @@
         <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/tbr.js" defer></script>
 </body>
 </html>

@@ -30,13 +30,39 @@ nav a:hover {
     background-color: antiquewhite;
     color: black;
 }
-#summary{
-    cursor: pointer;
-    font-weight: bold;
-    
-} 
-details{
-    background-color: rgb( 192, 215, 226);
+main{
+    margin: 1rem auto;
+    border: 2px solid black;
     padding: 1rem;
-    margin: 2rem solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+input,button{
+    padding: 0.5rem;
+}
+button{
+    margin: 0.5em;
+}
+.delete{
+    width: fit-content;
+}
+.input{
+    display: flex;
+}
+.list{
+    padding: 0.5rem;
+}
+ul{
+    margin: 1rem;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media only screen and (min-width: 33em){
+    main{
+        width: 330px;
+    }
 }
